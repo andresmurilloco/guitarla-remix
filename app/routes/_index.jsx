@@ -10,7 +10,10 @@ import stylesCurso from '~/styles/curso.css'
 import Curso from '../components/curso';
 
 export function meta(){
-
+  return[
+    {title: 'GuitarLa - Home'},
+    {description: 'Bienvenido al mundo de las guitarras'}
+  ]
 }
 
 export function links(){
